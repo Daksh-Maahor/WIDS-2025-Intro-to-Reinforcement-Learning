@@ -45,3 +45,7 @@ Git Tutorial – https://youtu.be/NcoBAfJ6l2Q?si=FRLMmKKwj01E8ePw
 ## Week 1:
 
 In this week, you're gonna work on the Multi-Bandit Problem from Sutton and Barto (available in the resources folder) and explore the idea of the tradeoff between exploration and exploitation.
+
+## Week 2:
+
+This week will consist of understand and coding MDPs as well as understanding the Bellman optimality equations.
