@@ -10,6 +10,8 @@ This Winter in Data Science project is being conducted under Analytics Club and 
     - [Resources for Matplotlib](#resources-for-matplotlib)
     - [Resources for Git](#optional-resources-for-git)
 - [WEEK 1](#week-1)
+- [WEEK 2](#week-2)
+- [WEEK 3](#week-3)
 
 The goal of this project is to introduce you to the world of RL(hence the name) in a easy way by learning the relevant theory and implementing the algorithms to solve a few puzzles.
 
@@ -49,3 +51,7 @@ In this week, you're gonna work on the Multi-Bandit Problem from Sutton and Bart
 ## Week 2:
 
 This week will consist of understand and coding MDPs as well as understanding the Bellman optimality equations.
+
+## Week 3:
+
+We will study policy iteration and value iteration and see their application in solving two problems from Sutton and Barto.
