@@ -27,3 +27,9 @@ For this part, you should train the RL agent to solve this problem using VALUE I
 ![My answer](images/gamblerimage.png)
 
 Also make sure to reason through this answer and understand why it makes sense 
+
+## Part 3 - Solving Lights out
+
+Remember that MDP you made for Lights Out last week? Well let's use RL to solve it! You can use either Policy Iteration or Value Iteration. Just find the optimal policy.
+
+Once you have the policy try to see if you can figure out using this policy what is the minimum number of moves required to guarantee that any initial possible board can be solved (i.e. if we play optimally we will need atleast this many moves to guarantee that you can find the goal state)
