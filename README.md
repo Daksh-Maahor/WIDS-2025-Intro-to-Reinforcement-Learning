@@ -1,57 +1,53 @@
-# WIDS-2025-Intro-to-Reinforcement-Learning
+# WIDS-2025 Intro to Reinforcement Learning - Submission
 
-This Winter in Data Science project is being conducted under Analytics Club and being mentored by me, Krishna Sai Shishir Vuppala and Akshar Zala.
+**Winter in Data Science Project** | Analytics Club, 2025  
+Mentored by: Krishna Sai Shishir Vuppala and Akshar Zala
+
+## Overview
+
+This is my submission for the "Introduction to Reinforcement Learning" project conducted under the Winter in Data Science (WIDS) initiative. The project focuses on understanding core RL concepts and implementing algorithms to solve classical problems from Sutton and Barto's textbook.
 
 ## Contents
 
-- [WEEK 0](#week-0)
-    - [Resources for Python](#resources-for-python)
-    - [Resources for Numpy](#resources-for-numpy)
-    - [Resources for Matplotlib](#resources-for-matplotlib)
-    - [Resources for Git](#optional-resources-for-git)
-- [WEEK 1](#week-1)
-- [WEEK 2](#week-2)
-- [WEEK 3](#week-3)
+- [Week 0](#week-0) - Python, NumPy, and Matplotlib fundamentals
+- [Week 1](#week-1) - Multi-Armed Bandits and Exploration-Exploitation Trade-off
+- [Week 2](#week-2) - Markov Decision Processes and Bellman Equations
+- [Week 3](#week-3) - Policy Iteration and Value Iteration Applications
 
-The goal of this project is to introduce you to the world of RL(hence the name) in a easy way by learning the relevant theory and implementing the algorithms to solve a few puzzles.
+## Week 0 - Foundation & Tools
 
-## Week 0
-Most data science and ML is done using Python. So we need you to have atleast a basic understanding of it.(Trust me, it will be useful for you in the future as well!). For this project, you will also need to know the two importnt python modules numpy and matplotlib. For these we have attached relevant resources below
+Essential Python libraries and tools for data science and machine learning:
 
-### Resources for Python
+- **Python Fundamentals** - Core language concepts and syntax
+- **NumPy** - Numerical computing and array operations
+- **Matplotlib** - Data visualization and plotting
+- **Git** (Optional) - Version control systems
 
-This is a good video but long, should keep you occupied for a bit.
+All tutorials and practice notebooks are available in the [Week 0](./Week%200/) folder.
 
-Programming with Mosh: [Youtube](https://youtu.be/_uQrJ0TkZlc?si=gfn-7_-chO-J60hD)
+## Week 1 - Multi-Armed Bandits
 
-### Resources for Numpy
+Exploration of the Multi-Bandit Problem, investigating the fundamental trade-off between exploration and exploitation in decision-making algorithms.
 
-Numpy Tutorial - [Numpy Official Website](https://numpy.org/doc/2.1/user/quickstart.html)
+**Files:**
+- [bandits.py](./Week%201/bandits.py) - Implementation of bandit algorithms
+- [work_on_bandits.ipynb](./Week%201/work_on_bandits.ipynb) - Analysis and experiments
+- [README](./Week%201/README.md) - Week 1 overview
 
-### Resources for Matplotlib
+## Week 2 - Markov Decision Processes
 
-You can just look up what plot you want at that moment for matplotlib or 
+Understanding MDPs and Bellman optimality equations, the mathematical foundation for reinforcement learning.
 
-Official Tutorial - https://matplotlib.org/stable/tutorials/index.html
+**Files:**
+- [Assignment_2.ipynb](./Week%202/Assignment_2.ipynb) - MDP problems and Bellman equations
+- [README](./Week%202/README.md) - Week 2 overview
 
-Numpy, Pandas and Matplotlib in a Playlist - https://youtube.com/playlist?list=PL9n0l8rSshSnragNblKDBsT8Xu3otp3jA&si=1zoqrRjvGLP4QMmU
+## Week 3 - Policy and Value Iteration
 
-We have also provided a few Jupyter tutorial notebooks on python, numpy and matplotlib for your practice! They can be found [here](./Week%200/)
+Application of policy iteration and value iteration algorithms to solve classical RL problems.
 
-### (Optional) Resources for Git
-
-This isn’t strictly required for the project, but learning Git will be extremely useful for your future work. If you'd like to get started, here’s a great beginner-friendly lecture:
-
-Git Tutorial – https://youtu.be/NcoBAfJ6l2Q?si=FRLMmKKwj01E8ePw
-
-## Week 1:
-
-In this week, you're gonna work on the Multi-Bandit Problem from Sutton and Barto (available in the resources folder) and explore the idea of the tradeoff between exploration and exploitation.
-
-## Week 2:
-
-This week will consist of understand and coding MDPs as well as understanding the Bellman optimality equations.
-
-## Week 3:
-
-We will study policy iteration and value iteration and see their application in solving two problems from Sutton and Barto.
+**Files:**
+- [Gambler's Problem.ipynb](./Week%203/Gambler's%20Problem.ipynb) - Policy and value iteration on the gambler's problem
+- [Jack's Car Rental.ipynb](./Week%203/Jack's%20Car%20Rental.ipynb) - Car rental optimization problem
+- [Lights Out.ipynb](./Week%203/Lights%20Out.ipynb) - Light switching puzzle
+- [README](./Week%203/README.md) - Week 3 overview
