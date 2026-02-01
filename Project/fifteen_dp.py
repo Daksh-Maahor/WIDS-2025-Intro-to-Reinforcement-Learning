@@ -483,7 +483,7 @@ def main() -> None:
     solved = tuple(list(range(1, NUM_TILES)) + [EMPTY])  # type: ignore[assignment]
     # Start from a randomly scrambled (and therefore solvable) board.
     # Each run will use a fresh random scramble.
-    start = scramble(solved, steps=40)
+    start = scramble(solved, steps=100)
 
     print("Scrambled start:")
     pretty_print(start)
