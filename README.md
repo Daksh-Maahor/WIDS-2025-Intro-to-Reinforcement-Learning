@@ -51,3 +51,21 @@ Application of policy iteration and value iteration algorithms to solve classica
 - [Jack's Car Rental.ipynb](./Week%203/Jack's%20Car%20Rental.ipynb) - Car rental optimization problem
 - [Lights Out.ipynb](./Week%203/Lights%20Out.ipynb) - Light switching puzzle
 - [README](./Week%203/README.md) - Week 3 overview
+## Project
+
+Implementation of reinforcement learning algorithms and solutions to classical RL problems:
+
+**Files:**
+- [fifteen_dp.py](./Project/fifteen_dp.py) - Dynamic programming solution for the 15-puzzle problem
+
+This project demonstrates practical applications of RL concepts covered throughout the course.
+
+## Report
+
+Comprehensive documentation and analysis of the project work:
+
+**Files:**
+- [Report.tex](./Report/Report.tex) - LaTeX source for the full project report
+- [Report directory](./Report/) - Contains all report resources and images
+
+The report provides detailed explanations of algorithms, implementation details, experimental results, and insights from the reinforcement learning project.
